@@ -214,9 +214,9 @@ permeabilized/Hill7_alpha0.2_beta0.004_cstar1.1/SparkAnalysis_ci0175_before_spar
 permeabilized/Hill7_alpha0.2_beta0.004_cstar1.1/SparkAnalysis_ci03_before_spark.m
 ```
 
-The codes for H = 2 are slightly different from H = 7 because sparks can last for a long time at H = 2. For H = 2, just use the matlab codes for H = 7.
+The codes for H = 2 are slightly different from H = 7 because sparks can last for a long time at H = 2. For H = 12, just use the matlab codes for H = 7.
 
-These codes output the number of sparks and non-spark events. These data are summarized in ```permeabilized/sparks_nonspark.txt```
+These codes output the number of sparks and non-spark events. The data are summarized in ```permeabilized/sparks_nonspark.txt```
 
 Plot the figure
 
@@ -379,7 +379,7 @@ Then for the simulations of interest, turn on the following command in, for inst
 #define output_fluoxt
 ```
 
-The summarized morphology data are within ```intact/DAD/data_beta0.004.txt```
+The summarized morphology data are included in ```intact/DAD/data_beta0.004.txt```
 
 Plot the figure
 
@@ -404,7 +404,7 @@ Similar to the previous figure, turn on the following command in corresponding C
 #define output_fluoxt
 ```
 
-The summarized morphology data are within ```intact/DAD/data_beta0.001.txt```
+The summarized morphology data are included in ```intact/DAD/data_beta0.001.txt```
 
 Additionally, for panel D at 2 Hz, run the following script
 
@@ -565,7 +565,7 @@ cd permeabilized
 gnuplot figureS3_complex.sh
 ```
 
-Notice that for some simulations, the simulation time should be significantly increased, i.e., the value of macro definition `#define stoptime (15001.0)` should be increased. The specific value of total time could be found in `figureS3_complex.sh`.
+Notice that for some simulations, the simulation time should be significantly increased, i.e., the value of macro definition `#define stoptime (15001.0)` should be increased. The specific values of total time could be found in `figureS3_complex.sh`.
 
 
 
