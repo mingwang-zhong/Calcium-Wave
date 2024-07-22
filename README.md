@@ -2,7 +2,7 @@
 
 This mathematical model was developed to produce the propagating Ca<sup>2+</sup> waves in ventricular myocytes by incorporating ryanodine receptor (RyR) cooperativity, which can be phenomenologically represented by a large Hill coefficient in the RyR gating function. In contrast to existing models, this one does not use an extraordinarily large release current ($I_\text{rel}$) from sarcoplasmic reticulum (SR) and an unrealistic architecture of the cell that diffusively couples the Ca<sup>2+</sup> release units (CRUs) in the longitudinal direciton. 
 
-Moreover, this model successfully replicates other experimentally observed manifestations of Ca2+-wave-mediated triggered activity, including phase 2 and phase 3 early afterdepolarizations, and high-frequency voltage-Ca2+ oscillations. The model also sheds light on the roles of luminal gating of RyRs and the mobile buffer ATP in the genesis of these arrhythmogenic phenomena.
+Moreover, this model successfully replicates other experimentally observed manifestations of Ca<sup>2+</sup>-wave-mediated triggered activity, including phase 2 and phase 3 early afterdepolarizations, and high-frequency voltage-Ca<sup>2+</sup> oscillations. The model also sheds light on the roles of luminal gating of RyRs and the mobile buffer ATP in the genesis of these arrhythmogenic phenomena.
 
 This repository is able to reproduce all results represented in our paper:
 
@@ -10,7 +10,7 @@ This repository is able to reproduce all results represented in our paper:
 
 This code is based on an earlier implementation of a similar detailed model described in:
 
-- Zhong, Mingwang, Colin M. Rees, Dmitry Terentyev, Bum-Rak Choi, Gideon Koren, and Alain Karma. "NCX-mediated subcellular Ca2+ dynamics underlying early afterdepolarizations in LQT2 cardiomyocytes." *Biophysical journal* 115, no. 6 (2018): 1019-1032.
+- Zhong, Mingwang, Colin M. Rees, Dmitry Terentyev, Bum-Rak Choi, Gideon Koren, and Alain Karma. "NCX-mediated subcellular Ca<sup>2+</sup> dynamics underlying early afterdepolarizations in LQT2 cardiomyocytes." *Biophysical journal* 115, no. 6 (2018): 1019-1032.
 - Restrepo, J. G., Weiss, J. N., & Karma, A. (2008). Calsequestrin-mediated mechanism for cellular calcium transient alternans. *Biophysical journal*, 95(8), 3767-3789.
 
 This software is free software, distributed under the 2-clause BSD license. A copy of the license is included in the LICENSE file. We cordially ask that any published work derived from this code, or utilizing it references the above-mentioned published works.
