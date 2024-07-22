@@ -1,0 +1,30 @@
+0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	1	2	3	3	0	0	0
+0	0	0	1	2	3	3	3	3	2	3
+0	0	0	1	2	3	3	3	3	3	3
+0	0	0	2	3	3	3	3	3	3	3
+0	0	0	2	3	3	3	3	3	3	3
+0	0	0	2	3	3	3	3	3	3	3
+0	0	0	2	3	3	3	3	3	3	3
+0	0	0	2	3	3	3	3	3	3	3
+0	0	0	2	3	3	3	3	3	3	3
+0	0	0	2	3	3	3	3	3	3	3
+
+
+#	Hill	2	3	4	5	6	7	8	9	10	11	12
+# ci												
+# 0.1		sparks	sparks	sparks	sparks	sparks	sparks	sparks	sparks	sparks	sparks	sparks
+# 0.125		sparks	sparks	sparks	sparks	sparks	sparks	sparks	sparks	sparks	sparks	sparks
+# 0.15		sparks	sparks	sparks	sparks	sparks	sparks	sparks	sparks	sparks	sparks	sparks
+# 0.175		sparks	sparks	sparks	sparks	mini-waves	broken waves	waves	waves	sparks	sparks	sparks
+# 0.2		sparks	sparks	sparks	mini-waves	broken waves	waves	waves	waves	waves	broken waves	waves
+# 0.225		sparks	sparks	sparks	mini-waves	broken waves	waves	waves	waves	waves	waves	waves
+# 0.25		sparks	sparks	sparks	broken waves	waves	waves	waves	waves	waves	waves	waves
+# 0.275		sparks	sparks	sparks	broken waves	waves	waves	waves	waves	waves	waves	waves
+# 0.3		sparks	sparks	sparks	broken waves	waves	waves	waves	waves	waves	waves	waves
+# 0.325		sparks	sparks	sparks	broken waves	waves	waves	waves	waves	waves	waves	waves
+# 0.35		sparks	sparks	sparks	broken waves	waves	waves	waves	waves	waves	waves	waves
+# 0.375		sparks	sparks	sparks	broken waves	waves	waves	waves	waves	waves	waves	waves
+# 0.4		sparks	sparks	sparks	broken waves	waves	waves	waves	waves	waves	waves	waves
