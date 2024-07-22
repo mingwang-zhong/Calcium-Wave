@@ -19,7 +19,7 @@ If you have any questions, please contact mingwang(dot)zhong(at)gmail(dot)com, o
 
 # Reproducing all figures
 
-Before running simulaitons, the path in the `submit.sh` file needs to be changed to the current directory. If `run.sh` is provided for some simulations, just `cd` to the directory, and run `./run.sh`. 
+Before running simulaitons, the path in `submit.sh` needs to be changed to the current directory. If `run.sh` is provided for some simulations, just go to the directory, and run `./run.sh`. 
 
 We also generated two videos, corresponding to the following two directories
 
@@ -46,7 +46,7 @@ These simulations output data files containing the time to the first spark, as w
 permeabilized/Hill7_alpha0.2_beta0.004_cstar1.1_fixNSR_taujn/plot.py
 ```
 
-Finally, plot the figure using `gnuplot`
+Finally, plot the figure using [gnuplot](http://www.gnuplot.info) on Terminal
 
 ```bash
 cd permeabilized
@@ -96,7 +96,7 @@ gnuplot figure4_sparks.sh
 
 ## Figure 5
 
-Execute the following scripts to run CUDA codes. Here we only give the representative codes. Other simulations require to modify the parameters in the CUDA codes.
+Execute the following scripts to run CUDA codes. Here we only give the representative codes. For other simulations, simply modify the parameters in the CUDA codes and run again.
 
 ```bash
 # the reference simulation
@@ -114,7 +114,7 @@ permeabilized/Hill7_alpha0.2_beta0.004_cstar1.1/ci0.1_fine_taupi0.025_tausi0.01_
 permeabilized/Hill7_alpha0.2_beta0.004_cstar1.1/ci0.1_fine_taupi0.025_tausi0.01_Vratio_1_Ddye0.02_DCa0.6/submit.sh
 ```
 
-Use the following Matlab code to calculate F/F_0, FWHM, and FDHM for each simulation
+Use the following Matlab code to calculate F/F<sub>0</sub>, FWHM, and FDHM for each simulation
 
 ```bash
 permeabilized/Hill7_alpha0.2_beta0.004_cstar1.1/ci0.1_fine_taupi0.025_tausi0.01_Vratio_0.8/analysis.m
@@ -133,7 +133,7 @@ gnuplot figure5_parameter_sensitivity.sh
 
 ## Figure 6
 
-For the diagram of c_i vs H in panel A, execute the following script to run all simulations
+For the diagram of c<sub>i</sub> vs H in panel A, execute the following script to run all simulations
 
 ```bash
 # the code is permeabilized/cell.cu
