@@ -8,7 +8,7 @@ This repository is able to reproduce all results represented in our paper:
 
 - Mingwang Zhong and Alain Karma, "Role of RyR cooperativity in Ca<sup>2+</sup>-wave-mediated triggered activity in cardiomyocytes", _The Journal of Physiology_
 
-This code is based on an earlier implementation of a similar detailed model described in:
+This model is based on an earlier implementation of a similar detailed model described in:
 
 - Zhong, Mingwang, Colin M. Rees, Dmitry Terentyev, Bum-Rak Choi, Gideon Koren, and Alain Karma. "NCX-mediated subcellular Ca<sup>2+</sup> dynamics underlying early afterdepolarizations in LQT2 cardiomyocytes." *Biophysical journal* 115, no. 6 (2018): 1019-1032.
 - Restrepo, J. G., Weiss, J. N., & Karma, A. (2008). Calsequestrin-mediated mechanism for cellular calcium transient alternans. *Biophysical journal*, 95(8), 3767-3789.
