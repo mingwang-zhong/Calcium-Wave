@@ -96,7 +96,7 @@ gnuplot figure4_sparks.sh
 
 ## Figure 5
 
-Execute the following scripts to run CUDA codes. Here we only give the representative codes. For other simulations, simply modify the parameters in the CUDA codes and run again.
+Execute the following scripts to run CUDA codes. Here we only provide the representative codes. For other simulations, simply modify the parameters in the CUDA codes and run again.
 
 ```bash
 # the reference simulation
