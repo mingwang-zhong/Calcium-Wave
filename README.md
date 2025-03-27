@@ -19,16 +19,16 @@ If you have any questions, please contact mingwang(dot)zhong(at)gmail(dot)com, o
 
 # Reproducing all figures
 
-Before running simulaitons, the path in `submit.sh` needs to be changed to the current directory. If `run.sh` is provided for some simulations, just go to the directory, and run `./run.sh`. 
+Before running simulaitons, the path in `submit.sh` needs to be removed or changed to the current directory. If `run.sh` is provided for some simulations, just go to the directory, and run `./run.sh`. 
 
-We also generated two videos, corresponding to the following two directories
+The codes used to produce propagating Ca waves in permeabilized and intact myocytes are provided below
 
 ```bash
 permeabilized/Hill7_alpha0.2_beta0.004_cstar1.1/ci0.3/
 intact/Hill7_cstar1.1_ISO/
 ```
 
-The visualization application [ParaView](http://paraview.org) can open the `.vtk` files and produce videos.
+These two codes also generate `.vtk` files used for generating two videos in the paper. The visualization application [ParaView](http://paraview.org) can open the `.vtk` files and produce videos.
 
 Below is the schematic of rabbit ventricular myocyte model:
 ![Alt text](model.svg) 
