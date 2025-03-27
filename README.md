@@ -30,6 +30,9 @@ intact/Hill7_cstar1.1_ISO/
 
 The visualization application [ParaView](http://paraview.org) can open the `.vtk` files and produce videos.
 
+Below is the schematic of rabbit ventricular myocyte model:
+![Alt text](model.svg) 
+
 
 
 ## Figure 3
